@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- 
+Main Pallet:
+blue grey: #3A4042
+dark navy: #091324
+ultra light blue: #F4F5F2
+light grey blue: #CCD0DB
+sumo orange: FF5608
+
+Complementary Colors:
+periwinkle: #A485A8
+light flat green: #9FA896
+
+white: #FFFFFF
+black: #000000
+-->
+     
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truva</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/menu.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/slick-theme.css" />
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Oswald|PT+Sans+Narrow" rel="stylesheet">
+</head>
+
+<body>
+      <nav class="navbar navbar-dark bg-dark sidebarNavigation" data-sidebarClass="navbar-dark bg-dark ">
+        <button class="navbar-toggler left-navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="assets/images/truva_text_small.png" alt="Truva Logo" id="topBarLogo">
+        <i class="fas fa-user" id="topBarProfileIcon"></i>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active menuItem"><a href="#">Search History</a></li>
+                <li class="active menuItem"><a href="#">Profile</a></li>
+                <li class="active menuItem"><a href="#">Log Off</a></li>
+            </ul>
+        </div>
+    </nav>
+    <img src="assets/images/main_page_pic2.jpg" id="mainPageImage" alt="Picture of a Restaurant with tables set">
+    
+    <!-- Tag Line -->
+    <h1 class="tagLine">Find Places Nearby</h1>
+    <!-- Search form -->
+    <div class="input-group input-group-sm mb-3 searchForm">
+      <input type="text" class="form-control searchField" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary searchButton" type="button" id="button-addon2">
+            <i class="fas fa-search searchIcon" id="topBarProfileIcon"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id='slider'>
+      <div><img src="assets/images/restaurants_small.jpg" alt="Steak on a plate at a restaurant" ></div>
+      <div><img src="assets/images/nightlife_small.jpg" alt="Women dancing at a club" ></div>
+      <div><img src="assets/images/live_music_small.jpg" alt="People at a live music venue" ></div>
+      <div><img src="assets/images/drinks_small.jpg" alt="Bartender making drinks" ></div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/menu.js"></script>
+<script src="assets/javascript/slick.js"></script>
+<script src="assets/javascript/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+	
